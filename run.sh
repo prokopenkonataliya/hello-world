@@ -1,0 +1,1 @@
+java GreetingsProgram $1
