@@ -1,3 +1,5 @@
+package greetings;
+
 public class GreetAllFunction{ 
 	public static void main (String...args) { 
 		for(String name:args) { 
