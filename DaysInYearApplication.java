@@ -1,4 +1,5 @@
-public class DaysInYearApplikation {
+public class DaysInYearApplication {
+
   public static void main(String args[]) {    
     int[] month_days;       
     month_days = new int[12];
@@ -14,12 +15,11 @@ public class DaysInYearApplikation {
     month_days[9] = 31;
     month_days[10] = 30;
     month_days[11] = 31;
+
     int daysInYear = 0;
-  for(int days: month_days) {
-  	daysInYear = daysInYear + days;
-	}
-  System.out.println ("У році " +daysInYear+" днів.");	
-
-
-}
+    for(int days: month_days) {
+      daysInYear = daysInYear + days;
+    }
+    System.out.println ("There are " +daysInYear+" in year.");	
+  }
 }
