@@ -1,3 +1,5 @@
+package daysinyear;
+
 public class DaysInYearApplication {
 
   public static void main(String args[]) {    

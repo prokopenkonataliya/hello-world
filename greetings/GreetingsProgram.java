@@ -1,3 +1,5 @@
+package greetings;
+
 public class GreetingsProgram {
     public static void main(String...arguments) {
 	String name = arguments[0];
